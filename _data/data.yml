@@ -4,28 +4,28 @@
 
 sidebar:
   position: right # position of the sidebar : left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
   education: True # set to False if you want education in main section instead of in sidebar
 
   # Profile information
-  name: Alan Doe
-  tagline: Full Stack Developer
-  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  name: Agata Krzyżaniak
+  tagline: Medical Informatics & Data Science Researcher
+  avatar: profile.png # put a 100x100 image in /assets/images/profile.png
 
   # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-  citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
+  email: agata.krz@gmail.com
+  phone: +41 77 404 48 97
+  timezone: 
+  citizenship: Swiss, Polish
+  website:
+  linkedin: agata-krzyzaniak
+  xing:
+  github: agata-krz
   telegram: # add your nickname without '@' sign
   gitlab:
   bitbucket:
-  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  twitter: '@jekyllrb'
+  bluesky: # Specify your full Bluesky handle
+  twitter: 
   stack-overflow: # Number/Username, e.g. 123456/alandoe
   codewars:
   goodreads: # Number-Username, e.g. 123456-alandoe
@@ -38,249 +38,184 @@ sidebar:
     title: Languages
     info:
     - idiom: English
+      level: Fluent
+      
+    - idiom: German
+      level: Advanced
+      
+    - idiom: Polish
       level: Native
-
-    - idiom: French
-      level: Professional
-
-    - idiom: Spanish
-      level: Professional
 
   interests:
     title: Interests
     info:
-    - item: Climbing
+    - item: Digital health & AI
       link:
-
-
-    - item: Snowboarding
+      
+    - item: Data-driven healthcare
       link:
-
-
-    - item: Cooking
+      
+    - item: # Running
+      link:
+      
+    - item: # Reading
       link:
 
 
 career-profile:
   title: Career Profile
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    Life science and informatics researcher with a strong foundation in pharmacology,
+    data science, and computational modeling. I bridge biology, informatics, and clinical
+    research to support data-driven therapeutic decision-making. Experienced in analyzing
+    large-scale clinical datasets and applying machine learning and pharmacometric methods,
+    I’m motivated by research that connects molecular mechanisms with clinical impact and
+    thrive in interdisciplinary environments across academia, hospitals, and pharma.
+    
 education:
   title: Education
   info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
+  - degree: M.Sc. in Medical Informatics – Pharma Informatics
+    university: University of Applied Sciences and Arts Northwestern Switzerland (FHNW)
+    time: 2024 – 2026
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
+      Focus on AI, data science, and mathematical modeling in drug discovery, clinical
+      studies, and healthcare data analysis. Coursework also includes digital biomarkers,
+      healthcare cybersecurity, and cloud computing.
+      
+  - degree: B.Sc. in Natural Sciences
+    university: Maastricht University
+    time: 2011 – 2014
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-
+      Combined molecular biology, chemistry, and pharmacology. Bachelor thesis on antioxidant reaction kinetics
+      involved quantitative biochemical analysis and modeling, sparking long-term interest in data-driven biology.
+      
 experiences:
-  title: Experiences
+  title: Experience
   info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
+  - role: Guest Scientist
+    time: 2025 – Present
+    company: Swiss Tropical and Public Health Institute (Swiss TPH), Allschwil
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
+      Conducting data-driven evaluation of the TIMCI project to analyze digital health intervention outcomes in
+      primary healthcare facilities in LMICs. Focus on understanding 
+      spatiotemporal and subgroup heterogeneity in pediatric illness management.
+        - Statistical and time-series modeling (Python, pandas, statsmodels)
+        - Clustering and data integration for large-scale clinical datasets
+        - Spatiotemporal visualization and health outcomes analytics
+        - Multi-country data harmonization and reproducibility workflows
+        
+  - role: Pharma Informatics Intern
+    time: 2025
+    company: University Children’s Hospital Basel (UKBB), Basel
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
+      Applied pharmacometric modeling and simulation to optimize caffeine dosing in neonates, supporting 
+      evidence-based decision-making in pediatric pharmacotherapy.
+        - Population PK/PD modeling (Monolix, R)
+        - Dose–response simulation and regression-based prediction
+        - Data cleaning, parameter estimation, and report generation
+        
+  - role: Researcher
+    time: 2016 – 2024
+    company: Leiden University Medical Center (LUMC), Leiden
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      Conducted both experimental and computational pharmacology research, combining wet-lab work on 
+      drug delivery systems with pharmacometric modeling of clinical data. Projects focused on improving 
+      drug formulation and dosing strategies through quantitative and data-driven approaches.
+        - Designed and optimized dissolving microneedles and microspheres for intradermal drug delivery
+        - Developed and validated pharmacometric models using clinical and pediatric datasets
+        - Performed regression-based and dose–response modeling for epilepsy treatment outcomes
+        - Integrated clinical, pharmacological, and omics data to identify therapeutic patterns
+      
+  - role: Research Assistant, Translational Medicine
+    time: 2014 – 2015
+    company: Novartis, Basel
+    details: |
+      Conducted biomarker studies using flow cytometry on human whole blood samples, developed and validated 
+      assays, and contributed to internal biomarker validation reports and presentations.
+        - Flow cytometry and assay optimization
+        - Sample processing and quality control
+        - Data interpretation and experimental reporting
+      
+  - role: Intern
+    time: 2011, 2013
+    company: Novartis, Basel
+    details: |
+      Supported preformulation studies to improve compound solubility and stability, and evaluated 
+      biomarker stability under varying storage conditions.
+        - Preformulation and analytical testing of pharmaceutical compounds
+        - Stability studies and method validation
+        - Experimental design and documentation in GMP-like settings
 
 certifications:
   title: Certifications
   list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
-    details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
-
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
+  - name: Enterprise Design Thinking Practitioner
+    start: 2025
     end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
-    details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+    organization: IBM
+    credentialid:
+    credentialurl: "https://www.credly.com/badges/09a25d24-702d-4a2e-a745-c5f880702f25/linked_in_profile"
+    credentialname: Enterprise Design Thinking Practitioner
+    details:
+  - name: Python for Everybody Specialization
+    start: 2024
+    end:
+    organization: University of Michigan
+    credentialid: 
+    credentialurl:"https://www.coursera.org/account/accomplishments/specialization/3HKRZSW5KWDZ
+    credentialname: Python for Everybody
+    details:
 
 projects:
   title: Projects
-  intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  intro:
   assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  - title: Dengue Antibody Classification (FHNW)
+    link: ""
+    tagline: "Developed neural network models in PyTorch to classify antibody sequences; compared encoding methods and tuned hyperparameters."
 
-  - title: DevStudio
-    link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
+  - title: IBM WatsonX Challenge
+    link: ""
+    tagline: "Developing a speech-to-text chatbot for a digital health-coaching platform, integrating IBM WatsonX Assistant and watsonx.ai for multimodal interaction and natural-language understanding."
+# oss:
+#   title: OSS Contributions
+#   intro:
+#   contributions: []
 
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+# publications:
+#   title: Publications
+#   intro:
+#   papers: []
 
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-  title: OSS Contributions
-  intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-  title: Publications
-  intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
-  papers:
-  - title: The Art of Computer Programming
-    link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
-
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-  - title: A syntax directed compiler for Algol 60
-    link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
-
-recommendations:
-  title: Recommendations
-  list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
-
-      He is a great employee!
+# recommendations:
+#   title: Recommendations
+#   list: []
 
 skills:
   title: Skills &amp; Proficiency
 
   toolset:
-  - name: Python & Django
-    level: 98%
-
-  - name: Javascript & jQuery
-    level: 98%
-
-  - name: Angular
-    level: 98%
-
-  - name: HTML5 & CSS
+  - name: Python (pandas, NumPy, scikit-learn, PyTorch, Matplotlib)
+    level: 90%
+  - name: R & SQL
+    level: 75%
+  - name: Pharmacometric modeling (Monolix, NONMEM)
+    level: 85%
+  - name: Biomarker & clinical data modeling; real-world evidence analysis
+    level: 77%
+  - name: Model interpretability (LIME, SHAP); feature engineering
+    level: 75%
+  - name: NLP (embeddings, TF-IDF)
+    level: 70%
+  - name: Data integration, EDA & statistics
+    level: 90%
+  - name: Cloud & tools (IBM WatsonX, MS Azure, Google Cloud)
+    level: 70%
+  - name: Research tools (ODK/ODK-X), dashboards, LaTeX
+    level: 75%
+  - name: Collaboration & communication (Agile, Git/GitHub/GitLab)
     level: 95%
 
-  - name: Ruby on Rails
-    level: 85%
-
-  - name: Sketch & Photoshop
-    level: 60%
-
-footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+# footer: >
+#   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

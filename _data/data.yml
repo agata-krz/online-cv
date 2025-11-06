@@ -46,20 +46,20 @@ sidebar:
     - idiom: Polish
       level: Native
 
-  interests:
-    title: Interests
-    info:
-    - item: Digital health & AI
-      link:
+  # interests:
+  #   title: Interests
+  #   info:
+  #   - item: Digital health & AI
+  #     link:
       
-    - item: Data-driven healthcare
-      link:
+  #   - item: Data-driven healthcare
+  #     link:
       
-    - item: # Running
-      link:
+  #   - item: # Running
+  #     link:
       
-    - item: # Reading
-      link:
+  #   - item: # Reading
+  #     link:
 
 
 career-profile:
@@ -98,22 +98,20 @@ experiences:
     company: Swiss Tropical and Public Health Institute (Swiss TPH), Allschwil
     details: |
       Conducting data-driven evaluation of the TIMCI project to analyze digital health intervention outcomes in
-      primary healthcare facilities in LMICs. Focus on understanding 
+      primary healthcare facilities in low- and middle-income countries. Focus on understanding 
       spatiotemporal and subgroup heterogeneity in pediatric illness management.
-        - Statistical and time-series modeling (Python, pandas, statsmodels)
+        - Statistical and time-series modeling
         - Clustering and data integration for large-scale clinical datasets
         - Spatiotemporal visualization and health outcomes analytics
-        - Multi-country data harmonization and reproducibility workflows
         
   - role: Pharma Informatics Intern
     time: 2025
     company: University Children’s Hospital Basel (UKBB), Basel
     details: |
-      Applied pharmacometric modeling and simulation to optimize caffeine dosing in neonates, supporting 
+      Applied pharmacometric modeling and simulation techniques to optimize caffeine dosing in neonates, supporting 
       evidence-based decision-making in pediatric pharmacotherapy.
-        - Population PK/PD modeling (Monolix, R)
+        - Population PK/PD modeling
         - Dose–response simulation and regression-based prediction
-        - Data cleaning, parameter estimation, and report generation
         
   - role: Researcher
     time: 2016 – 2024
@@ -127,17 +125,17 @@ experiences:
         - Performed regression-based and dose–response modeling for epilepsy treatment outcomes
         - Integrated clinical, pharmacological, and omics data to identify therapeutic patterns
       
-  - role: Research Assistant, Translational Medicine
+  - role: Research Intern, Translational Medicine
     time: 2014 – 2015
     company: Novartis, Basel
     details: |
-      Conducted biomarker studies using flow cytometry on human whole blood samples, developed and validated 
+      Conducted biomarker studies using flow cytometry on human whole blood samples. Developed and validated 
       assays, and contributed to internal biomarker validation reports and presentations.
         - Flow cytometry and assay optimization
         - Sample processing and quality control
         - Data interpretation and experimental reporting
       
-  - role: Intern
+  - role: Research Intern
     time: 2011, 2013
     company: Novartis, Basel
     details: |
@@ -156,7 +154,7 @@ certifications:
     organization: IBM
     credentialid:
     credentialurl: "https://www.credly.com/badges/09a25d24-702d-4a2e-a745-c5f880702f25/linked_in_profile"
-    credentialname: Enterprise Design Thinking Practitioner
+    credentialname:
     details:
   - name: Python for Everybody Specialization
     start: 2024
@@ -164,7 +162,7 @@ certifications:
     organization: University of Michigan
     credentialid: 
     credentialurl: "https://www.coursera.org/account/accomplishments/specialization/3HKRZSW5KWDZ"
-    credentialname: Python for Everybody
+    credentialname:
     details:
 
 projects:
@@ -197,25 +195,22 @@ skills:
 
   toolset:
   - name: Python (pandas, NumPy, scikit-learn, PyTorch, Matplotlib)
-    level: 90%
+    level: 80%
   - name: R & SQL
-    level: 75%
+    level: 65%
   - name: Pharmacometric modeling (Monolix, NONMEM)
-    level: 85%
+    level: 80%
   - name: Biomarker & clinical data modeling; real-world evidence analysis
-    level: 77%
-  - name: Model interpretability (LIME, SHAP); feature engineering
-    level: 75%
-  - name: NLP (embeddings, TF-IDF)
     level: 70%
+  - name: Model interpretability (LIME, SHAP); feature engineering
+    level: 80%
+  - name: NLP (embeddings, TF-IDF)
+    level: 65%
   - name: Data integration, EDA & statistics
     level: 90%
   - name: Cloud & tools (IBM WatsonX, MS Azure, Google Cloud)
-    level: 70%
+    level: 65%
   - name: Research tools (ODK/ODK-X), dashboards, LaTeX
-    level: 75%
+    level: 85%
   - name: Collaboration & communication (Agile, Git/GitHub/GitLab)
-    level: 95%
-
-# footer: >
-#   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    level: 90%

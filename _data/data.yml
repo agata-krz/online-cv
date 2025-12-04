@@ -38,7 +38,7 @@ sidebar:
     title: Languages
     info:
     - idiom: English
-      level: Fluent
+      level: Native
       
     - idiom: German
       level: Advanced
@@ -65,30 +65,15 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    Life science and informatics researcher with a strong foundation in pharmacology,
-    data science, and computational modeling. I bridge biology, informatics, and clinical
-    research to support data-driven therapeutic decision-making. Experienced in analyzing
-    large-scale clinical datasets and applying machine learning and pharmacometric methods,
-    I’m motivated by research that connects molecular mechanisms with clinical impact and
-    thrive in interdisciplinary environments across academia, hospitals, and pharma.
-    
-education:
-  title: Education
-  info:
-  - degree: M.Sc. in Medical Informatics – Pharma Informatics
-    university: University of Applied Sciences and Arts Northwestern Switzerland (FHNW)
-    time: 2024 – 2026
-    details: |
-      Focus on AI, data science, and mathematical modeling in drug discovery, clinical
-      studies, and healthcare data analysis. Coursework also includes digital biomarkers,
-      healthcare cybersecurity, and cloud computing.
-      
-  - degree: B.Sc. in Natural Sciences
-    university: Maastricht University
-    time: 2011 – 2014
-    details: |
-      Combined molecular biology, chemistry, and pharmacology. Bachelor thesis on antioxidant reaction kinetics
-      involved quantitative biochemical analysis and modeling, sparking long-term interest in data-driven biology.
+    A life science and medical informatics researcher with a strong foundation in
+    pharmacology, data science, and computational modeling. My work bridges
+    biology, informatics, and clinical research, applying data-driven, pharmacometric,
+    and machine-learning approaches to support decision-making in drug development
+    and healthcare. Experienced in analyzing large-scale clinical datasets and building
+    reproducible workflows, I am particularly interested in data and process modeling,
+    simulation, and digitalization within pharmaceutical R&D. Having worked in academic,
+    hospital, and pharmaceutical environments, I thrive in interdisciplinary teams and
+    enjoy translating complex data into actionable insights.
       
 experiences:
   title: Experience
@@ -99,16 +84,17 @@ experiences:
     details: |
       Conducting data-driven evaluation of the TIMCI project to analyze digital health intervention outcomes in
       primary healthcare facilities in low- and middle-income countries. Focus on understanding 
-      spatiotemporal and subgroup heterogeneity in pediatric illness management.
+      spatiotemporal and subgroup heterogeneity in pediatric illness management to inform targeted strategies for improving global
+      child health.
         - Statistical and time-series modeling
-        - Clustering and data integration for large-scale clinical datasets
+        - Machine learning for pattern recognition and prediction
         - Spatiotemporal visualization and health outcomes analytics
         
   - role: Pharma Informatics Intern
     time: 2025
     company: University Children’s Hospital Basel (UKBB), Basel
     details: |
-      Applied pharmacometric modeling and simulation techniques to optimize caffeine dosing in neonates, supporting 
+      Applied pharmacometric simulation and modeling techniques to optimize caffeine dosing in neonates, supporting 
       evidence-based decision-making in pediatric pharmacotherapy.
         - Population PK/PD modeling
         - Dose–response simulation and regression-based prediction
@@ -124,6 +110,9 @@ experiences:
         - Developed and validated pharmacometric models using clinical and pediatric datasets
         - Performed regression-based and dose–response modeling for epilepsy treatment outcomes
         - Integrated clinical, pharmacological, and omics data to identify therapeutic patterns
+        - Worked with heterogeneous datasets (clinical, experimental,
+          biomarker) and maintained structured documentation and data
+          organization across multi-year projects.
       
   - role: Research Intern, Translational Medicine
     time: 2014 – 2015
@@ -144,6 +133,24 @@ experiences:
         - Preformulation and analytical testing of pharmaceutical compounds
         - Stability studies and method validation
         - Experimental design and documentation in GMP-like settings
+
+education:
+  title: Education
+  info:
+  - degree: M.Sc. in Medical Informatics – Pharma Informatics
+    university: University of Applied Sciences and Arts Northwestern Switzerland (FHNW)
+    time: 2024 – 2026
+    details: |
+      Focus on AI, data science, and mathematical modeling in drug discovery, clinical
+      studies, and healthcare data analysis. Coursework also includes digital biomarkers,
+      healthcare cybersecurity, and cloud computing.
+      
+  - degree: B.Sc. in Natural Sciences
+    university: Maastricht University
+    time: 2011 – 2014
+    details: |
+      Combined molecular biology, chemistry, and pharmacology. Bachelor thesis on antioxidant reaction kinetics
+      involved quantitative biochemical analysis and modeling, sparking long-term interest in data-driven biology.
 
 certifications:
   title: Certifications
@@ -194,23 +201,30 @@ skills:
   title: Skills &amp; Proficiency
 
   toolset:
-  - name: Python (pandas, NumPy, scikit-learn, PyTorch, Matplotlib)
-    level: 80%
-  - name: R & SQL
-    level: 65%
-  - name: Pharmacometric modeling (Monolix, NONMEM)
-    level: 80%
-  - name: Biomarker & clinical data modeling; real-world evidence analysis
-    level: 70%
-  - name: Model interpretability (LIME, SHAP); feature engineering
-    level: 80%
-  - name: NLP (embeddings, TF-IDF)
-    level: 65%
-  - name: Data integration, EDA & statistics
-    level: 90%
-  - name: Cloud & tools (IBM WatsonX, MS Azure, Google Cloud)
-    level: 65%
-  - name: Research tools (ODK/ODK-X), dashboards, LaTeX
-    level: 85%
-  - name: Collaboration & communication (Agile, Git/GitHub/GitLab)
-    level: 90%
+    - name: Programming & Data Science
+      details: Python (pandas, NumPy, scikit-learn, PyTorch, Matplotlib), R, Bash, SQL
+      level: 85%
+
+    - name: Machine Learning & AI
+      details: Supervised & unsupervised learning, deep learning, LLMs, NLP (embeddings, TF-IDF), model interpretability (LIME, SHAP)
+      level: 75%
+
+    - name: Computational Biology & Pharmacometric Modeling
+      details: Monolix, NONMEM, PK/PD, biomarker & clinical data modeling, real-world evidence analysis, multi-omics
+      level: 80%
+
+    - name: Data Integration, EDA & Statistics
+      details: Data cleaning & preprocessing, EDA, regression & classification, time-series and spatiotemporal analysis
+      level: 90%
+
+    - name: Cloud, Infrastructure & Digital Health Technologies
+      details: IBM WatsonX, MS Azure, Google Cloud, RAG systems, ODK/ODK-X, Linux/HPC basics, data governance & IoMT security awareness
+      level: 70%
+
+    - name: Research Tools & Visualization
+      details: Dashboards, scientific reporting, LaTeX, reproducible pipelines & documentation
+      level: 85%
+
+    - name: Collaboration & Communication
+      details: Agile workflows, cross-functional collaboration, Git/GitHub/GitLab, stakeholder communication
+      level: 90%

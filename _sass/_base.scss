@@ -266,41 +266,35 @@ p {
 
 .skillset {
   .item {
-    margin-bottom: 15px;
-    overflow: hidden;
+    margin-bottom: 24px;
   }
+
   .level-title {
     font-size: 14px;
-    margin-top: 0;
-    margin-bottom: 4px;
+    margin-bottom: 3px;     // Tight spacing before details
   }
+
   .skill-sub {
-    font-size: 12px;
+    font-size: 13px;
     color: $text-grey;
     margin-top: 0;
-    margin-bottom: 8px;
-    line-height: 1.3;
+    margin-bottom: 8px;     // Space before bar
+    line-height: 1.35;
   }
+
   .level-bar {
+    width: 100%;            // IMPORTANT: full width bar
     height: 12px;
     background: $smoky-white;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 0;
   }
+
   .level-bar-inner {
-    height: 12px;
-    background: lighten($theme-color, 15%);
-  }
-}
-
-.footer {
-  padding-top: 30px;
-  .copyright {
-    line-height: 1.6;
-    color: $text-color-secondary;
-    font-size: 13px;
-  }
-
-  .fa-heart {
-    color: $heart;
+    height: 100%;
+    background: lighten($theme-color, 10%);
+    border-radius: 4px;
   }
 }
 

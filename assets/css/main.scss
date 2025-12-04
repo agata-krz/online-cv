@@ -51,3 +51,27 @@ $sidebar-order: 2;
   background: #6f8897 !important; /* your blue-grey color */
   border-radius: 4px;
 }
+
+/* === FIX SKILL DETAILS ALIGNMENT === */
+
+/* Force details to appear below the title instead of aligned beside it */
+.skillset .item {
+  display: block !important;
+}
+
+/* Remove column-like behaviour */
+.skillset .level-title,
+.skillset .skill-sub {
+  display: block !important;
+  width: 100% !important;
+}
+
+/* Adjust spacing to look clean */
+.skillset .level-title {
+  margin-bottom: 2px;
+}
+
+.skillset .skill-sub {
+  margin-top: 0;
+  margin-bottom: 8px; /* space before bar */
+}

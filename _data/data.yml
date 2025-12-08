@@ -78,7 +78,7 @@ career-profile:
 experiences:
   title: Experience
   info:
-  - role: Guest Scientist
+  - role: Guest Scientist, Digital Health Unit
     time: 2025 – Present
     company: Swiss Tropical and Public Health Institute (Swiss TPH), Allschwil
     details: |
@@ -90,7 +90,7 @@ experiences:
         - Machine learning for pattern recognition and prediction
         - Spatiotemporal visualization and health outcomes analytics
         
-  - role: Pharma Informatics Intern
+  - role: Research Intern
     time: 2025
     company: University Children’s Hospital Basel (UKBB), Basel
     details: |
@@ -124,7 +124,7 @@ experiences:
         - Sample processing and quality control
         - Data interpretation and experimental reporting
       
-  - role: Research Intern
+  - role: Research Intern, Pharmaceutical Development
     time: 2011, 2013
     company: Novartis, Basel
     details: |
@@ -178,7 +178,7 @@ projects:
   assignments:
   - title: Dengue Antibody Classification (FHNW)
     link: ""
-    tagline: "Developed neural network models in PyTorch to classify antibody sequences; compared encoding methods and tuned hyperparameters."
+    tagline: "Developed neural network models in PyTorch to classify antibody sequences. Compared encoding methods and tuned hyperparameters."
 
   - title: IBM WatsonX Challenge
     link: ""

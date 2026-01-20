@@ -65,15 +65,7 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    A life science and medical informatics researcher with a strong foundation in
-    pharmacology, data science, and computational modeling. My work bridges
-    biology, informatics, and clinical research, applying data-driven, pharmacometric,
-    and machine-learning approaches to support decision-making in drug development
-    and healthcare. Experienced in analyzing large-scale clinical datasets and building
-    reproducible workflows, I am particularly interested in data and process modeling,
-    simulation, and digitalization within pharmaceutical R&D. Having worked in academic,
-    hospital, and pharmaceutical environments, I thrive in interdisciplinary teams and
-    enjoy translating complex data into actionable insights.
+    A life science and medical informatics researcher with a strong foundation in pharmacology, data science, and computational modeling. My work bridges biology, informatics, and clinical research, applying data-driven, pharmacometric, and machine-learning approaches to support decision-making in healthcare. Experienced in analyzing large-scale clinical datasets and building reproducible workflows, I am particularly interested in data and process modeling, simulation, and digitalization within the healthcare environment. Having worked in academic, hospital, and pharmaceutical environments, I thrive in interdisciplinary teams and enjoy translating complex data into actionable insights.
       
 experiences:
   title: Experience
@@ -94,8 +86,7 @@ experiences:
     time: 2025
     company: University Children’s Hospital Basel (UKBB), Basel
     details: |
-      Applied pharmacometric simulation and modeling techniques to optimize caffeine dosing in neonates, supporting 
-      evidence-based decision-making in pediatric pharmacotherapy.
+      Supported decision-making in pediatric care using pharmacometric simulation and modeling techniques to optimize caffeine dosing in neonates.
         - Population PK/PD modeling
         - Dose–response simulation and regression-based prediction
         
@@ -103,9 +94,8 @@ experiences:
     time: 2016 – 2024
     company: Leiden University Medical Center (LUMC), Leiden
     details: |
-      Conducted both experimental and computational pharmacology research, combining wet-lab work on 
-      drug delivery systems with pharmacometric modeling of clinical data. Projects focused on improving 
-      drug formulation and dosing strategies through quantitative and data-driven approaches.
+      Projects focused on improving drug formulation and dosing strategies through quantitative and data-driven approaches. Conducted both experimental and computational pharmacology research, combining wet-lab work on 
+      drug delivery systems with pharmacometric modeling of clinical data. 
         - Designed and optimized dissolving microneedles and microspheres for intradermal drug delivery
         - Developed and validated pharmacometric models using clinical and pediatric datasets
         - Performed regression-based and dose–response modeling for epilepsy treatment outcomes

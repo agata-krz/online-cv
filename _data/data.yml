@@ -22,7 +22,7 @@ sidebar:
   xing:
   github: agata-krz
   telegram: # add your nickname without '@' sign
-  gitlab:
+  gitlab: agata-krz
   bitbucket:
   bluesky: # Specify your full Bluesky handle
   twitter: 
@@ -65,64 +65,58 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    A life science and medical informatics researcher with a strong foundation in pharmacology, data science, and computational modeling. My work bridges biology, informatics, and clinical research, applying data-driven, pharmacometric, and machine-learning approaches to support decision-making in healthcare. Experienced in analyzing large-scale clinical datasets and building reproducible workflows, I am particularly interested in data and process modeling, simulation, and digitalization within the healthcare environment. Having worked in academic, hospital, and pharmaceutical environments, I thrive in interdisciplinary teams and enjoy translating complex data into actionable insights.
+    Medical informatics researcher and data scientist with over a decade of experience in pharmaceutical R&D, academic research, and clinical settings. Combines a solid foundation in computational modeling, reproducible data analysis, and applied machine learning with broad practical experience working with complex, heterogeneous health datasets. Proven ability to deliver across the entire research lifecycle, from data processing and analysis through modeling, visualization, and scientific communication. Track record of contributing effectively in interdisciplinary teams spanning industry, academia, and hospital environments.
       
 experiences:
   title: Experience
   info:
-  - role: Guest Scientist, Digital Health Unit
-    time: 2025 – Present
+  - role: Studienkoordinatorin
+    time: Apr 2026 – Present
+    company: Kantonsspital Aarau (KSA), Aarau
+    details: |
+      Advancing diagnostics and data infrastructure within the Department of Radiology and the AI & Data Science Centre of Excellence.
+        - Building data pipelines and engineering research-grade datasets to support AI-driven clinical workflows.
+
+  - role: Data Analysis Contributor
+    time: Mar 2026 – Apr 2026
     company: Swiss Tropical and Public Health Institute (Swiss TPH), Allschwil
     details: |
-      Conducting data-driven evaluation of the TIMCI project to analyze digital health intervention outcomes in
-      primary healthcare facilities in low- and middle-income countries. Focus on understanding 
-      spatiotemporal and subgroup heterogeneity in pediatric illness management to inform targeted strategies for improving global
-      child health.
+      Conducted statistical analysis of quantitative data and produced publication-ready figures for a research study manuscript.
+
+  - role: Guest Scientist
+    time: Aug 2025 – Mar 2026
+    company: Swiss Tropical and Public Health Institute (Swiss TPH), Allschwil
+    details: |
+      Applied DTW-based time-series clustering and spatiotemporal heterogeneity analysis to a dataset of 200,000+ pediatric
+      clinical records across 260+ primary healthcare facilities to identify facility-level determinants of intervention uptake.
         - Statistical and time-series modeling
         - Machine learning for pattern recognition and prediction
         - Spatiotemporal visualization and health outcomes analytics
-        
-  - role: Research Intern
-    time: 2025
+
+  - role: Intern
+    time: Feb 2025 – Aug 2025
     company: University Children’s Hospital Basel (UKBB), Basel
     details: |
-      Supported decision-making in pediatric care using pharmacometric simulation and modeling techniques to optimize caffeine dosing in neonates.
+      Supported clinical decision-making in pediatric care using pharmacometric simulation and modeling to optimize caffeine dosing in neonates.
         - Population PK/PD modeling
         - Dose–response simulation and regression-based prediction
-        
+
   - role: Researcher
-    time: 2016 – 2024
+    time: Feb 2016 – Apr 2024
     company: Leiden University Medical Center (LUMC), Leiden
     details: |
-      Projects focused on improving drug formulation and dosing strategies through quantitative and data-driven approaches. Conducted both experimental and computational pharmacology research, combining wet-lab work on 
-      drug delivery systems with pharmacometric modeling of clinical data. 
-        - Designed and optimized dissolving microneedles and microspheres for intradermal drug delivery
-        - Developed and validated pharmacometric models using clinical and pediatric datasets
-        - Performed regression-based and dose–response modeling for epilepsy treatment outcomes
-        - Integrated clinical, pharmacological, and omics data to identify therapeutic patterns
-        - Worked with heterogeneous datasets (clinical, experimental,
-          biomarker) and maintained structured documentation and data
-          organization across multi-year projects.
-      
-  - role: Research Intern, Translational Medicine
-    time: 2014 – 2015
+      Conducted experimental and computational research on drug delivery optimization, characterizing dissolving microneedles
+      and microspheres for intradermal delivery applications.
+        - Built and validated PK/PD models simulating epilepsy treatment outcomes using real-world patient data, informing dosing strategy recommendations.
+        - Managed and integrated heterogeneous datasets spanning clinical, experimental, and biomarker domains across multiple concurrent long-term projects.
+
+  - role: Research Intern
+    time: 2011, 2013, 2014 – 2015
     company: Novartis, Basel
     details: |
-      Conducted biomarker studies using flow cytometry on human whole blood samples. Developed and validated 
-      assays, and contributed to internal biomarker validation reports and presentations.
-        - Flow cytometry and assay optimization
-        - Sample processing and quality control
-        - Data interpretation and experimental reporting
-      
-  - role: Research Intern, Pharmaceutical Development
-    time: 2011, 2013
-    company: Novartis, Basel
-    details: |
-      Supported preformulation studies to improve compound solubility and stability, and evaluated 
-      biomarker stability under varying storage conditions.
-        - Preformulation and analytical testing of pharmaceutical compounds
-        - Stability studies and method validation
-        - Experimental design and documentation in GMP-like settings
+      Characterized biomarkers using flow cytometry on human whole blood at the Department of Translational Medicine,
+      contributing to assay development and internal validation reporting.
+        - Conducted preformulation studies assessing solubility, stability, and storage-condition sensitivity of pharmaceutical compounds across two separate internship periods.
 
 education:
   title: Education
@@ -178,10 +172,19 @@ projects:
 #   intro:
 #   contributions: []
 
-# publications:
-#   title: Publications
-#   intro:
-#   papers: []
+publications:
+  title: Publications & Conference Contributions
+  intro:
+  papers:
+  - title: "Investigating facility-level characteristics associated with antibiotic prescribing in Tanzania's TIMCI cluster-randomized trial: an unsupervised machine learning analysis"
+    link:
+    authors: "Krzyżaniak, A., Lwambura, M. S. G., Mhalu, G., Beynon, F., Levine, G. A., Cicconi, S., Moshiro, R., Masanja, H., Wyss, K., & Langet, H."
+    conference: "Journal of Epidemiology and Community Health (Supplement, forthcoming). Poster to be presented at the 70th SSM Annual Conference & European Congress of Epidemiology (EuroEpi) 2026, London, UK."
+
+  - title: "Improving Diabetes Self-Management in Kosovo Through a Digital Intervention: Pilot Implementation Study"
+    link:
+    authors: "Salzmann, T., Hoxha, L., Arënliu, A., Bahtiri, S., Cërmjani, D., Konjufca, J., Hasani, F., Mecini, I., Tavadze, L., Krzyżaniak, A., Beynon, F., Bardhi, N., Canavan, R., & Gerold, J."
+    conference: "JMIR Diabetes (manuscript under review)."
 
 # recommendations:
 #   title: Recommendations

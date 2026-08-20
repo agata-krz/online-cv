@@ -35,6 +35,7 @@ sidebar:
   pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
 
   languages:
+  
     title: Languages
     info:
     - idiom: English
@@ -65,54 +66,52 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    Medical informatics researcher and data scientist with over a decade of experience in pharmaceutical R&D, academic research, and clinical settings. Combines a solid foundation in computational modeling, reproducible data analysis, and applied machine learning with broad practical experience working with complex, heterogeneous health datasets. Proven ability to deliver across the entire research lifecycle, from data processing and analysis through modeling, visualization, and scientific communication. Track record of contributing effectively in interdisciplinary teams spanning industry, academia, and hospital environments.
+    Data scientist and engineer with a life-sciences and lab-research foundation, bridging pharmaceutical R&D, hospital-based healthcare, and academic clinical research. Builds production-grade clinical and real-world data pipelines and applies machine learning and statistical modeling to heterogeneous, multi-modal health data. Comfortable operating at the interface of experimental science, data engineering, and clinical or scientific stakeholders, translating between technical and domain-expert teams.
       
 experiences:
   title: Experience
   info:
-  - role: Studienkoordinatorin
+  - company: Kantonsspital Aarau (KSA), Aarau
     time: Apr 2026 – Present
-    company: Kantonsspital Aarau (KSA), Aarau
+    role: Study Coordinator / Scientific Associate
     details: |
-      Advancing diagnostics and data infrastructure within the Department of Radiology and the AI & Data Science Centre of Excellence.
-        - Building data pipelines and engineering research-grade datasets to support AI-driven clinical workflows.
+        - Designing and building end-to-end clinical data pipelines, partnering with radiology clinicians, pathologists and infrastructure specialists to turn clinical requirements into production data workflows.
+        - Leading a model-validation research workstream benchmarking LLM-based structured extraction from pathology reports against expert-labeled ground truth, applying statistical agreement and bias-analysis methods suited to regulated clinical settings.
+        - Engineering research-grade datasets from heterogeneous hospital source systems, working within data governance, access-control, and compliance requirements.
 
-  - role: Data Analysis Contributor
+  - company: Swiss Tropical and Public Health Institute (Swiss TPH), Allschwil
     time: Mar 2026 – Apr 2026
-    company: Swiss Tropical and Public Health Institute (Swiss TPH), Allschwil
+    role: Data Analysis Contributor
     details: |
       Conducted statistical analysis of quantitative data and produced publication-ready figures for a research study manuscript.
 
-  - role: Guest Scientist
+  - company: Swiss Tropical and Public Health Institute (Swiss TPH), Allschwil
     time: Aug 2025 – Mar 2026
-    company: Swiss Tropical and Public Health Institute (Swiss TPH), Allschwil
+    role: Guest Scientist
     details: |
-      Applied DTW-based time-series clustering and spatiotemporal heterogeneity analysis to a dataset of 200,000+ pediatric
-      clinical records across 260+ primary healthcare facilities to identify facility-level determinants of intervention uptake.
-        - Statistical and time-series modeling
-        - Machine learning for pattern recognition and prediction
-        - Spatiotemporal visualization and health outcomes analytics
+        - Piloted an unsupervised, DTW-based time-series clustering approach to 200,000+ pediatric clinical records across 260+ primary healthcare facilities to identify facility-level determinants of intervention uptake invisible to standard cross-sectional analysis.
+        - Collaborated with a multidisciplinary, multi-country research team spanning epidemiology, public health, and data science to translate unsupervised ML findings into actionable recommendations.
 
-  - role: Intern
+  - company: University Children’s Hospital Basel (UKBB), Basel
     time: Feb 2025 – Aug 2025
-    company: University Children’s Hospital Basel (UKBB), Basel
+    role: Intern
     details: |
       Supported clinical decision-making in pediatric care using pharmacometric simulation and modeling to optimize caffeine dosing in neonates.
         - Population PK/PD modeling
         - Dose–response simulation and regression-based prediction
 
-  - role: Researcher
+  - company: Leiden University Medical Center (LUMC), Leiden
     time: Feb 2016 – Apr 2024
-    company: Leiden University Medical Center (LUMC), Leiden
+    role: Researcher
     details: |
       Conducted experimental and computational research on drug delivery optimization, characterizing dissolving microneedles
       and microspheres for intradermal delivery applications.
         - Built and validated PK/PD models simulating epilepsy treatment outcomes using real-world patient data, informing dosing strategy recommendations.
         - Managed and integrated heterogeneous datasets spanning clinical, experimental, and biomarker domains across multiple concurrent long-term projects.
 
-  - role: Research Intern
+  - company: Novartis, Basel
     time: 2011, 2013, 2014 – 2015
-    company: Novartis, Basel
+    role: Research Intern
     details: |
       Characterized biomarkers using flow cytometry on human whole blood at the Department of Translational Medicine,
       contributing to assay development and internal validation reporting.
@@ -176,15 +175,25 @@ publications:
   title: Publications & Conference Contributions
   intro:
   papers:
+  - title: "A Translational AI Medicine Framework for Safe Implementation to Production"
+    link:
+    authors: "Burn, F., Krzyżaniak, A., Abaecherli, R., & Jones, C."
+    conference: "Accepted for presentation at the Digital Health Lab Symposium 2026, Aarau, Switzerland. (To be published in the Book of Abstracts / Proceedings)."
+
   - title: "Investigating facility-level characteristics associated with antibiotic prescribing in Tanzania's TIMCI cluster-randomized trial: an unsupervised machine learning analysis"
     link:
     authors: "Krzyżaniak, A., Lwambura, M. S. G., Mhalu, G., Beynon, F., Levine, G. A., Cicconi, S., Moshiro, R., Masanja, H., Wyss, K., & Langet, H."
     conference: "Journal of Epidemiology and Community Health (Supplement, forthcoming). Poster to be presented at the 70th SSM Annual Conference & European Congress of Epidemiology (EuroEpi) 2026, London, UK."
 
+  - title: "Assessing the Effectiveness of Large Language Models for Assisted Medical Cohort Building"
+    link:
+    authors: "Fehr, J., Bommer, L., Krzyżaniak, A., Fischer, C., & Burn, F."
+    conference: "Submitted to the 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP 2026) – Industry Track."
+
   - title: "Improving Diabetes Self-Management in Kosovo Through a Digital Intervention: Pilot Implementation Study"
     link:
     authors: "Salzmann, T., Hoxha, L., Arënliu, A., Bahtiri, S., Cërmjani, D., Konjufca, J., Hasani, F., Mecini, I., Tavadze, L., Krzyżaniak, A., Beynon, F., Bardhi, N., Canavan, R., & Gerold, J."
-    conference: "JMIR Diabetes (manuscript under review)."
+    conference: "Submitted to JMIR Diabetes."
 
 # recommendations:
 #   title: Recommendations
@@ -194,30 +203,26 @@ skills:
   title: Skills &amp; Proficiency
 
   toolset:
-    - name: Programming & Data Science
-      details: Python (pandas, NumPy, scikit-learn, PyTorch, Matplotlib), R, Bash, SQL
-      level: 85%
-
-    - name: Machine Learning & AI
-      details: Supervised & unsupervised learning, deep learning, LLMs, NLP (embeddings, TF-IDF), model interpretability (LIME, SHAP)
-      level: 75%
-
-    - name: Computational Biology & Pharmacometric Modeling
-      details: Monolix, NONMEM, PK/PD, biomarker & clinical data modeling, real-world evidence analysis, multi-omics
+    - name: Data Science & ML
+      details: Python (pandas, NumPy, scikit-learn, PyTorch, Matplotlib), R, SQL, supervised/unsupervised learning, NLP (embeddings, TF-IDF, RAG systems), model interpretability (LIME, SHAP)
       level: 80%
 
-    - name: Data Integration, EDA & Statistics
-      details: Data cleaning & preprocessing, EDA, regression & classification, time-series and spatiotemporal analysis
-      level: 90%
+    - name: Data Engineering
+      details: Dagster, dbt, Trino, Docker, Kubernetes, data lakehouse architecture, GitLab CI/CD
+      level: 65%
 
-    - name: Cloud, Infrastructure & Digital Health Technologies
-      details: IBM WatsonX, MS Azure, Google Cloud, RAG systems, ODK/ODK-X, Linux/HPC basics, data governance & IoMT security awareness
-      level: 70%
+    - name: Pharmacometric Modeling
+      details: Monolix, NONMEM, real-world evidence analysis, exposure–response modeling
+      level: 80%
 
-    - name: Research Tools & Visualization
-      details: Dashboards, scientific reporting, LaTeX, reproducible pipelines & documentation
-      level: 85%
+    - name: Digital Health & Cloud
+      details: IBM WatsonX, MS Azure, clinical data pipelines, ODK/ODK-X, data privacy & governance (GDPR), cybersecurity awareness
+      level: 60%
 
-    - name: Collaboration & Communication
-      details: Agile workflows, cross-functional collaboration, Git/GitHub/GitLab, stakeholder communication
+    - name: Life Sciences & Lab
+      details: Biomarker characterization (flow cytometry), assay development & validation, preformulation studies, experimental drug-delivery research (microneedles, microspheres)
+      level: 80%
+
+    - name: Collaboration
+      details: Agile workflows, Design Thinking (IBM-certified), cross-functional & stakeholder collaboration, multi-country & cross-cultural teams, scientific writing, regulatory awareness
       level: 90%

@@ -21,12 +21,6 @@
       <p class="skill-sub">{{ skill.details }}</p>
       {% endif %}
 
-      <!-- Progress Bar -->
-      {% assign skill_level = 'width: ' | append: skill.level %}
-      <div class="level-bar">
-        <div class="level-bar-inner" style="{{ skill_level }}"></div>
-      </div>
-
     </div>
     {% endfor %}
   </div>

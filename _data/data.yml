@@ -73,7 +73,7 @@ experiences:
   info:
   - company: Kantonsspital Aarau (KSA), Aarau
     time: Apr 2026 – Present
-    role: Study Coordinator / Scientific Associate
+    role: Data Scientist / Wissenschaftliche Mitarbeiterin
     details: |
         - Designing and building end-to-end clinical data pipelines, partnering with radiology clinicians, pathologists and infrastructure specialists to turn clinical requirements into production data workflows.
         - Leading a model-validation research workstream benchmarking LLM-based structured extraction from pathology reports against expert-labeled ground truth, applying statistical agreement and bias-analysis methods suited to regulated clinical settings.
